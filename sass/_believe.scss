@@ -1,0 +1,16 @@
+.believe {
+    padding: 3.10rem 0 7.4rem 0;
+    background-image: url(../images/Promo__figure.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+    &__wrapper {
+        max-width: 43rem;
+        margin: 0 auto;
+    }
+
+    &__descr {
+        text-align: center;
+    }
+}

@@ -136,3 +136,14 @@ body {
 
 .mb-sm {
   margin-bottom: 1.8rem; }
+
+.believe {
+  padding: 3.10rem 0 7.4rem 0;
+  background-image: url(../images/Promo__figure.svg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .believe__wrapper {
+    max-width: 43rem;
+    margin: 0 auto; }
+  .believe__descr {
+    text-align: center; }
