@@ -46,13 +46,7 @@
 }
 
 .header__top-container {
-    width: 81rem;
-    margin: 0 auto;
-    padding: 0 3.6rem;
-}
-
-.header__top-container {
-    width: 81rem;
+    max-width: 90vw;
     margin: 0 auto;
     padding: 1rem 1.2rem;
     display: flex;
@@ -104,6 +98,11 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         min-width: 50%;
+    }
+
+    &-btn {
+        display: flex;
+        flex-wrap: nowrap;
     }
 
     &-sign,
