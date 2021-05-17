@@ -1,0 +1,117 @@
+.header {
+    margin-bottom: 6.25rem;
+}
+
+.header__top {
+    background-color: $color-white-sand;
+
+    &-logo {
+        margin-right: 2rem;
+    }
+    &-list {
+        display: flex;
+        flex: 1 0 0;
+        list-style: none;
+        padding-bottom: 1rem;
+    }
+
+    &-item {
+        &:not(:last-child) {
+            margin-right: 2.5rem;
+        }
+    }
+
+    &-link {
+        text-decoration: none;
+        color: $color-black;
+        font-size: 0.9rem;
+        &:hover {
+            opacity: .7;
+        }
+    }
+
+    &-watch,
+    &-sign {
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 1rem 1.6rem;
+        &:hover {
+            background-color: $color-green;
+            color: $color-white;
+        }
+    }
+    &-watch {
+        margin-right: 1.75rem;
+    }
+}
+
+.header__top-container {
+    width: 81rem;
+    margin: 0 auto;
+    padding: 0 3.6rem;
+}
+
+.header__top-container {
+    width: 81rem;
+    margin: 0 auto;
+    padding: 1rem 1.2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__bottom {
+    background-color: $color-white;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    &-block {
+        padding: 7.6rem 2.4rem 19rem 2.2rem;
+    }
+
+    &-wrapper {
+        margin-bottom: 2.75rem;
+        width: 60%;
+    }
+
+    &-item1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-align: center;
+        width: 74%;
+        margin-bottom: 0.3rem;
+    }
+
+    &-item2 {
+        font-weight: 300;
+        font-size: 1.25rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-item3 {
+        font-weight: 300;
+        font-size: 1.25rem;
+        text-align: center;
+        width: 75%;
+        margin-top: 1rem;
+    }
+
+    &-img {
+        background: url(/images/Hero__backgound-image.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        min-width: 50%;
+    }
+
+    &-sign,
+    &-watch {
+        padding: 1.25rem 3.25rem; 
+    }
+
+    &-sign {
+        margin-right: 4.5rem;
+    }
+}

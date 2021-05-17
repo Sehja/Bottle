@@ -1,0 +1,47 @@
+.btn {
+     display: inline-block;
+     border: none;
+     border-radius: 0.6rem;
+     border: solid 0.07rem $color-green;
+     background-color: $color-white;
+     cursor: pointer;
+
+     &:hover {
+         background-color: $color-green;
+         color: $color-white;
+     }
+}
+
+.title {
+    font-family: 'Playfair Display',
+    serif;
+    font-weight: 400;
+    color: $color-black;
+}
+
+.title-lg {
+    font-size: 3rem;
+}
+
+.title-sm {
+    font-size: 2.7rem;
+}
+
+
+.descr-sm {
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.descr-md {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.descr-lg {
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
