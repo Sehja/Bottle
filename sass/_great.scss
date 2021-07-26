@@ -1,0 +1,14 @@
+.great {
+
+    padding: 7.4rem 0 8.9rem;
+
+    &__wrapper {
+        margin: 0 auto;
+        min-width: 43rem;
+        text-align: center;
+    }
+
+    span {
+        color: $color-green;
+    }
+}
