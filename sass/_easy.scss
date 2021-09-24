@@ -1,9 +1,37 @@
 .easy {
-    padding-bottom: 6.5rem;
+    padding-bottom: 18.5rem;
+
+    &__top {
+        background-image: url(/images/collaboration__image.jpg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding-bottom: 16rem;
+    }
 
     &__wrapper {
-        margin: 0 auto;
-        min-width: 43rem;
-        text-align: right;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    &__text-box {
+        width: 48%; 
+        margin-right: 2rem;
+    }
+
+    p {
+        margin-bottom: 2.1rem;
+    }
+
+    button {
+        padding: 19px 50px;
+    }
+
+    &__bottom {
+        padding-top: 6rem;
+    }
+
+    &__item {
+        display: inline-block;
     }
 }
