@@ -4,11 +4,11 @@
     &__top {
         background-image: url(../images/collaboration__image.jpg);
         background-repeat: no-repeat;
-        background-position: top left;
+        background-position: left top;
         padding-bottom: 16rem;
     }
 
-    &__wrapper {
+    &__top-wrapper {
         width: 100%;
         display: flex;
         justify-content: end;
@@ -31,14 +31,46 @@
         padding-top: 6rem;
     }
 
+    &__bottom-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     &__item {
-        display: inline-flex;
-        width: 30%;
-        flex-direction: column;
-        justify-content: space-between;
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        padding-top: 10rem;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+
+        &:not(:last-child) {
+            margin-right: 6rem;
+        }
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        font-family: $font-primary;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    &__descr {
+        line-height: 1.5rem;
     }
 
     &__item-1 {
-        background-image: url(../images/element__image.png);
+        background-image: url(../images/pinned.svg);
+    }
+
+    &__item-2 {
+        background-image: url(../images/chats.svg);
+    }
+
+    &__item-3 {
+        background-image: url(../images/task.svg);
     }
 }
