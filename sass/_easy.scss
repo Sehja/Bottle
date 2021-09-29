@@ -2,7 +2,7 @@
     padding-bottom: 18.5rem;
 
     &__top {
-        background-image: url(/images/collaboration__image.jpg);
+        background-image: url(../images/collaboration__image.jpg);
         background-repeat: no-repeat;
         background-position: top left;
         padding-bottom: 16rem;
@@ -32,6 +32,13 @@
     }
 
     &__item {
-        display: inline-block;
+        display: inline-flex;
+        width: 30%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item-1 {
+        background-image: url(../images/element__image.png);
     }
 }

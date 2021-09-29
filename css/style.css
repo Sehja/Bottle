@@ -167,7 +167,7 @@ body {
 .easy {
   padding-bottom: 18.5rem; }
   .easy__top {
-    background-image: url(/images/collaboration__image.jpg);
+    background-image: url(../images/collaboration__image.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     padding-bottom: 16rem; }
@@ -185,4 +185,9 @@ body {
   .easy__bottom {
     padding-top: 6rem; }
   .easy__item {
-    display: inline-block; }
+    display: inline-flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between; }
+  .easy__item-1 {
+    background-image: url(../images/element__image.png); }
