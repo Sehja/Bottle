@@ -16,8 +16,12 @@
 .title {
     font-family: 'Playfair Display',
         serif;
-    font-weight: 400;
     color: $color-black;
+}
+
+.title-bold {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .title-lg {
@@ -26,13 +30,13 @@
 
 .title-sm {
     font-size: 2.75rem;
+    font-weight: 400;
 }
 
 
 .descr-sm {
     font-size: 1rem;
     font-weight: 400;
-
 }
 
 .descr-md {

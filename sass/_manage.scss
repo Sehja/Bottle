@@ -1,0 +1,57 @@
+.manage {
+
+    &__top {
+        background-image: url(../images/main-frame__image.jpg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        padding-bottom: 18rem;
+    }
+
+    &__text-box {
+        max-width: 50%;
+        padding-top: 1.5rem;
+    }
+
+    &__descr {
+        margin-bottom: 1.3rem;
+    }
+
+    button {
+        padding: 19px 50px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        display: inline-block;
+        width: 22%;
+        text-align: center;
+        line-height: 1.5rem;
+        padding-top: 10rem;
+        background-repeat: no-repeat;
+        background-position: center top;
+
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+    }
+
+    &__item-1 {
+        background-image: url(../images/day.svg);
+    }
+
+    &__item-2 {
+        background-image: url(../images/lists.svg);
+    }
+
+    &__item-3 {
+        background-image: url(../images/workload.svg);
+    }
+
+    h3 {
+        margin-bottom: 0.7rem;
+    }
+}

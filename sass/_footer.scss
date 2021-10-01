@@ -1,0 +1,53 @@
+.footer {
+    background-color: $color-white-sand;
+    padding: 1.8rem 0 2.8rem;
+
+    &__right,
+    &__left {
+        display: inline-block;
+    }
+
+    &__right {
+        width: 40%;
+        display: inline-flex;
+        justify-content: end;
+    }
+
+    &__logo-link {
+        display: inline-block;
+        margin-bottom: 1.3rem;
+    }
+
+    &__descr {
+        margin-bottom: 2.3rem;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            padding-right: 1.1rem;
+        }
+    }
+
+    &__link {
+        transition: .3s;
+
+        &:hover {
+            color: $color-green;
+        }
+    }
+
+    &__icon {
+        display: inline-block;
+        transition: .2s;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        &:hover {
+            filter: brightness(1.2);
+        }
+    }
+}

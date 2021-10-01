@@ -22,6 +22,10 @@ html {
 body {
     font-family: $font-secondary;
     color: $color-black;
+
+    ::selection {
+        background-color: $color-green;
+    }
 }
 
 .container {
@@ -29,6 +33,16 @@ body {
     max-width: 70%;
 }
 
-// p {
-//     font-family: $font-secondary;
-// }
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-weight: normal;
+}
