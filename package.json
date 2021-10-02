@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "devserver": "live-server",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "prefix": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.prefix.css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^6.0.0"
+    "autoprefixer": "^10.3.6",
+    "node-sass": "^6.0.0",
+    "postcss": "^8.3.8",
+    "postcss-cli": "^9.0.1"
   }
 }
