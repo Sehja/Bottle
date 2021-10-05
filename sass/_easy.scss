@@ -5,7 +5,12 @@
         background-image: url(../images/collaboration__image.jpg);
         background-repeat: no-repeat;
         background-position: left top;
+        background-size: contain;
         padding-bottom: 16rem;
+
+        @media screen and (max-width: 1200px) {
+            padding-bottom: 26rem;
+        }
     }
 
     &__top-wrapper {
@@ -15,16 +20,26 @@
     }
 
     &__text-box {
-        width: 48%; 
-        margin-right: 2rem;
+        width: 50%;
+        margin-top: 1.8rem;
+        padding-left: 4rem;
+
+        @media screen and (max-width: 1100px) {
+            margin-right: 0;
+        }
+
+        @media screen and (max-width: 840px) {
+            padding-left: 9rem;
+        }
     }
 
     p {
         margin-bottom: 2.1rem;
+        line-height: 2rem;
     }
 
     button {
-        padding: 19px 50px;
+        padding: 1.2rem 3.1rem;
     }
 
     &__bottom {

@@ -8,11 +8,16 @@
     &-logo {
         margin-right: 2rem;
     }
+
     &-list {
         display: flex;
         flex: 1 0 0;
         list-style: none;
         padding-bottom: 1rem;
+
+        @media screen and (max-width: 800px) {
+            display: none;
+        }
     }
 
     &-item {
@@ -25,6 +30,7 @@
         text-decoration: none;
         color: $color-black;
         font-size: 0.9rem;
+
         &:hover {
             opacity: .7;
         }
@@ -35,13 +41,21 @@
         font-weight: 700;
         font-size: 0.9rem;
         padding: 1rem 1.6rem;
+
         &:hover {
             background-color: $color-green;
             color: $color-white;
         }
     }
+
     &-watch {
         margin-right: 1.75rem;
+    }
+
+    button {
+        @media screen and (max-width: 800px) {
+            display: none;
+        }
     }
 }
 
@@ -108,10 +122,18 @@
 
     &-sign,
     &-watch {
-        padding: 1.25rem 3.25rem; 
+        padding: 1.25rem 3.25rem;
+
+        // @media screen and (max-width: 900px) {
+        //     padding: 1.25rem 2.25rem;
+        // }
     }
 
     &-sign {
         margin-right: 4.5rem;
+
+        @media screen and (max-width: 1020px) {
+            margin-right: 1.5rem;
+        }
     }
 }

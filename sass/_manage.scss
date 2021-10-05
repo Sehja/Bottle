@@ -4,7 +4,15 @@
         background-image: url(../images/main-frame__image.jpg);
         background-repeat: no-repeat;
         background-position: right top;
+        background-size: contain;
         padding-bottom: 18rem;
+    }
+
+    &__bottom {
+
+        @media screen and (max-width: 1200px) {
+            padding-top: 10rem;
+        }
     }
 
     &__text-box {
@@ -36,6 +44,10 @@
 
         &:not(:last-child) {
             margin-right: 4rem;
+        }
+
+        @media screen and (max-width: 1000px) {
+            padding-top: 20rem;
         }
     }
 

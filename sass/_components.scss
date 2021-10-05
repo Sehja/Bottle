@@ -11,6 +11,10 @@
         background-color: $color-green;
         color: $color-white;
     }
+
+    @media screen and (max-width: 900px) {
+        padding: 1.25rem 2.25rem;
+    }
 }
 
 .title {
